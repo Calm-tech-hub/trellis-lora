@@ -7,6 +7,26 @@ Extensions built on top of [TRELLIS](https://github.com/microsoft/TRELLIS) for t
 
 The codebase keeps the original TRELLIS pipeline intact and adds lightweight extensions for data preparation, training, and inference.
 
+## Results
+
+Input views:
+
+| View 1 | View 2 | View 3 |
+| --- | --- | --- |
+| <img src="assets/example_multi_image/popmart_1.png" width="180"> | <img src="assets/example_multi_image/popmart_2.png" width="180"> | <img src="assets/example_multi_image/popmart_3.png" width="180"> |
+
+Before fine-tuning:
+
+| Output 1 | Output 2 | Output 3 |
+| --- | --- | --- |
+| <img src="assets/ori/1.png" width="180"> | <img src="assets/ori/2.png" width="180"> | <img src="assets/ori/3.png" width="180"> |
+
+After fine-tuning:
+
+| Output 1 | Output 2 | Output 3 |
+| --- | --- | --- |
+| <img src="assets/lora/1.png" width="180"> | <img src="assets/lora/2.png" width="180"> | <img src="assets/lora/3.png" width="180"> |
+
 ## Features
 
 - Rotation-aligned stage1 supervision for image-conditioned training
