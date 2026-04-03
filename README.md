@@ -27,6 +27,26 @@ After fine-tuning:
 | --- | --- | --- |
 | <img src="assets/lora/1.png" width="180"> | <img src="assets/lora/2.png" width="180"> | <img src="assets/lora/3.png" width="180"> |
 
+### CRRC Comparison
+
+Input views:
+
+| View 1 | View 2 | View 3 |
+| --- | --- | --- |
+| <img src="assets/crrc_results/1.png" width="220"> | <img src="assets/crrc_results/2.png" width="220"> | <img src="assets/crrc_results/3.png" width="220"> |
+
+Baseline:
+
+| Output 1 | Output 2 | Output 3 |
+| --- | --- | --- |
+| <img src="assets/crrc_results/ori_1.gif" width="220"> | <img src="assets/crrc_results/ori_2.gif" width="220"> | <img src="assets/crrc_results/ori_3.gif" width="220"> |
+
+LoRA fine-tuned:
+
+| Output 1 | Output 2 | Output 3 |
+| --- | --- | --- |
+| <img src="assets/crrc_results/lora_1.gif" width="220"> | <img src="assets/crrc_results/lora_2.gif" width="220"> | <img src="assets/crrc_results/lora_3.gif" width="220"> |
+
 ## Features
 
 - Rotation-aligned stage1 supervision for image-conditioned training
